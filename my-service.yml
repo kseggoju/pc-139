@@ -1,5 +1,7 @@
 server:
-  port: 8100
+  port: ${PORT:8100}
+
+name: World
 
 endpoints:
   health:
