@@ -15,7 +15,7 @@ eureka:
   instance:
     leaseRenewalIntervalInSeconds: 3
     prefer-ip-address: true
-    ip-address: ${external.ip:${spring.cloud.client.ipAddress:localhost}}
+    ip-address: 192.168.99.100
     metadataMap:
       instanceId: ${spring.application.instance_id:${random.value}}
 # end::eureka[]
